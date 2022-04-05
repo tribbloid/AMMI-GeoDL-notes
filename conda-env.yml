@@ -1,0 +1,13 @@
+name: pytorch
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - torchaudio
+  - pytorch
+  - cudatoolkit=11.1
+  - torchvision
+  - jupyter
+  - matplotlib
+prefix: /home/peng/conda3/envs/pytorch
